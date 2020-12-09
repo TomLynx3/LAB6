@@ -1,6 +1,6 @@
 $('#btn').click(function(){
     $.ajax({
-        url:'http://lar.daugavpils.rtu.lv/echo1.php',
+        url:'http://lar.daugavpils.rtu.lv/echo1.php/',
         method:"GET",
         success:function(data){
            $('#text').html(data)
